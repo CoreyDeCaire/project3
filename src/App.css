@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.dogImage img {
+  border-radius: 50%;
+}
+
+body {
+  background-color: rgb(3, 140, 186);
+}
+

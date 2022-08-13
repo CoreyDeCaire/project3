@@ -45,3 +45,10 @@ body {
   background-color: rgb(3, 140, 186);
 }
 
+.imgContainer {
+  max-width: 500px;
+}
+
+img {
+    width: 100%;
+}

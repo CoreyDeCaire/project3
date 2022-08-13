@@ -3,7 +3,7 @@ function DogImage( {dogUrl, breed} ) {
         <div className="dogImage">
             <h2>{breed}</h2>
             <div className="imgContainer">
-                <img src={dogUrl} alt={`A really cute ${breed}`} />
+                <img src={dogUrl} alt={`A really cute doggie! ${breed}`} />
             </div>
         </div>
      )

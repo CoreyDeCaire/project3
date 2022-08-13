@@ -6,7 +6,7 @@ const Dropdown = ({getBreed}) => {
 
     const handleUserChoice = (e) => {
         setUserChoice(e.target.value)
-        setNameSelection(e.target.selectedOptions[0].label)
+        setNameSelection(e.target.selectedOptions.label)
         console.log(e.target)
         console.log(e.target.selectedOptions[0].label)
     }
@@ -20,7 +20,7 @@ const Dropdown = ({getBreed}) => {
                 <option value="airedale">airedale</option>
                 <option value="akita">akita</option>
                 <option value="appenzeller">appenzeller</option>
-                <option value="australian/shepherd">australian shepherd</option>
+                <option value="australian/shepherd" name="australian shepherd">australian shepherd</option>
                 <option value="basenji">basenji</option>
                 <option value="beagle">beagle</option>
                 <option value="bluetick">bluetick</option>

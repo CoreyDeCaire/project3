@@ -40,6 +40,7 @@
 h1 {
   color: yellow;
   text-shadow: 2px 2px 2px black;
+  font-size: 3rem;
 }
 
 .dogImage {
@@ -62,6 +63,7 @@ body {
   display: flex;
   justify-content: center;
   max-width: 500px;
+  max-height: 1000px;
 }
 
 img {
@@ -76,7 +78,20 @@ select {
 
 button {
   background-color: yellow;
+  transition: background-color 0.5s;
   border: 2px solid black;
+  padding: 5px 10px 5px 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  -webkit-border-radius: 40px 0px 40px 0px;
+  -moz-border-radius: 40px 0px 40px 0px;
+  border-radius: 40px 0px 40px 0px;
+}
+
+button:hover {
+  background-color: red;
+  color: yellow;
 }
 
 .dogImage h2 {
@@ -84,5 +99,28 @@ button {
 }
 
 h2 {
-  text-shadow: 2px solid black;
+  color: yellow;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  align-self: center;
+}
+
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: rgb(246, 251, 0);
+  text-shadow: 2px 2px 2px black;
 }

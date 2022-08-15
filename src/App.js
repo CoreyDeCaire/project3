@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <header>
           <h1>What Is Your Favourite Dog Breed?</h1>
-          <h2>Choose an option below</h2>
+          <h2>Choose an option below to &#128525;</h2>
       </header>
       <Dropdown getBreed={getBreed} />
       <DogImage dogUrl={dogUrl} breed={breedName} />

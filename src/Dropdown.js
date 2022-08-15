@@ -6,13 +6,14 @@ const Dropdown = ({getBreed}) => {
 
     const handleUserChoice = (e) => {
         setUserChoice(e.target.value)
-        setNameSelection(e.target.selectedOptions.label)
-        console.log(e.target)
-        console.log(e.target.selectedOptions[0].label)
+        setNameSelection(e.target.selectedOptions[0].label)
+        // console.log(e.target)
+        // console.log(e.target.selectedOptions[0].label)
     }
     return(
+        <div className="formWrapper">
         <form onSubmit={(e) => getBreed(e, userChoice, nameSelection)}>
-            <h2>Show me some cute doggies:</h2>
+            {/* <h2>Show me some cute doggies:</h2> */}
             <select  id="dogBreed" name="dogBreed" onChange={handleUserChoice} value={userChoice} >
                 <option value='placeholder' disabled>Choose A Breed:</option>
                 <option value="affenpinscher">affenpinscher</option>
@@ -165,6 +166,7 @@ const Dropdown = ({getBreed}) => {
             <button type='submit'>Show me the Dogs!</button>
 
         </form>
+        </div>
     )
 }
 

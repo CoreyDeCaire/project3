@@ -8,7 +8,7 @@ import Dropdown from './Dropdown';
 function App() {
 
   const [dogUrl, setDogUrl]= useState(''); 
-  const [breed, setBreed]= useState('golden');
+  const [breed, setBreed]= useState('');
   const [breedName, setBreedName]= useState('');
 
 

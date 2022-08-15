@@ -96,6 +96,7 @@ button:hover {
 
 .dogImage h2 {
   color: yellow;
+  text-transform: uppercase;
 }
 
 h2 {

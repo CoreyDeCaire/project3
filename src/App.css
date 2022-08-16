@@ -56,13 +56,13 @@ h1 {
 }
 
 body {
-  background-color: rgb(3, 140, 186);
+  background-color: rgb(11, 94, 217);
 }
 
 .imgContainer {
   display: flex;
   justify-content: center;
-  max-width: 500px;
+  max-width: 700px;
   max-height: 1000px;
 }
 

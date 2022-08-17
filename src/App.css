@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+  font-size: 3rem;
+}
+
+.dogImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dogImage img {
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #e9ff5c, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #e1ff88, -10px 10px 15px 7px #f2ff61, -10px -7px 27px 1px #d8fe2f, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+body {
+  background-color: rgb(11, 94, 217);
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  max-height: 1000px;
+}
+
+img {
+    width: 100%;
+}
+
+select {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+
+button {
+  background-color: yellow;
+  transition: background-color 0.5s;
+  border: 2px solid black;
+  padding: 5px 10px 5px 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  -webkit-border-radius: 40px 0px 40px 0px;
+  -moz-border-radius: 40px 0px 40px 0px;
+  border-radius: 40px 0px 40px 0px;
+}
+
+button:hover {
+  background-color: red;
+  color: yellow;
+}
+
+.dogImage h2 {
+  color: yellow;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: yellow;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  align-self: center;
+}
+
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: rgb(246, 251, 0);
+  text-shadow: 2px 2px 2px black;
+}

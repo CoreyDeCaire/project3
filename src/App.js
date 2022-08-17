@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import DogImage from './DogImage';
 import Dropdown from './Dropdown';
@@ -45,7 +44,6 @@ function App() {
       <DogImage dogUrl={dogUrl} breed={breedName} />
       <DogInfo />
     </div>
-    
   );
 }
 

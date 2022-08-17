@@ -5,6 +5,7 @@ import DogImage from './DogImage';
 import Dropdown from './Dropdown';
 
 
+
 function App() {
 
   const [dogUrl, setDogUrl]= useState(''); 
@@ -42,6 +43,7 @@ function App() {
       </header>
       <Dropdown getBreed={getBreed} />
       <DogImage dogUrl={dogUrl} breed={breedName} />
+      <DogInfo />
     </div>
     
   );
